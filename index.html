@@ -51,3 +51,51 @@
     //]]></script><script type="text/javascript" src="https://r.bing.com/rp/lOdiOLdMP6z7-OaP9ml2rVQNmVY.br.js" crossorigin="anonymous"></script><script data-rms="1" src="/sa/45692655/Blue/BlueIdentityDropdownRedirect_c.js"></script><script data-rms="1" src="/sa/45692655/Blue/HamburgerServicesHeaderFlyout_c.js"></script><script type="text/javascript" data-bing-script="1">//<![CDATA[
     sj_evt && sj_evt.bind( "onRALoad", function() { var reportActivityModule = new ModernRewards.ReportActivity({"AnimateHeader":true,"IsAuthenticated":true,"DashboardUrl":"/rewards/dashboard","IsMobileClient":false,"RewardsIncrement":1,"RewardsSessionData":{"IsRewardUser":true,"IsLinkedUser":false,"IsTenantEnabled":false,"IsAadUser":false,"IsTrialUser":false,"TrialUserClaimBalance":-1.0,"IsRebatesUser":false,"IsRebatesDeniedUser":false,"Balance":0,"RewardsBalance":0,"GiveBalance":0,"RebatesBalance":0.0,"IsGiveModeOn":false,"GiveModeCid":"","GiveModeCName":"","PreviousBalance":0,"GoalTrackBalance":0,"IsLevel2":false,"IsOptOut":false,"IsSuspended":false,"ShowAnimation":false,"EPuid":"sbb2kRYqDtGHeDK9YjL3FvEePPBTi7szaKHvpAOw0NzAeMpKhH_dhHwZsgoXDwSrl_m9yR9e8ZDbyexp5NGEDw","IsRedirectedFromOldDashboard":false,"ImpressionLifeTimeCount":0,"DailyImpressionHPCount":0,"DailyImpressionSerpCount":0,"VisitedCount":1,"LastVisitTime":"2024-04-24T07:00:00Z","LastAutoOpenFlyoutTime":"0001-01-01T00:00:00","LastRewardsDashboardVisitTime":"0001-01-01T16:00:00-08:00","LastRewardsFlyoutLoadTime":"0001-01-01T16:00:00-08:00","AutoOpenFlyoutFlag":false,"IsCLOUser":false,"Waitlist":"2","IsAdultMSA":"0","IsMSA18":"1","IsCcpEligible":"2","HasUsedCcpTrial":"0","SERPTheme":"","DailyCheckInProgress":0,"DailyCheckInAnimate":0,"LastAadRedDotShown":"0001-01-01T00:00:00","LastMedallionRedemptionAnimationImpression":"0001-01-01T00:00:00+00:00","IsRedemptionReadyAndAnimationEnabled":false,"IsUserFirstMedallionImpressionToday":true,"MedallionAnimationFlightTreatment":false,"MedallionAnimationFlightCounterfactual":false,"MedallionGiftHoverTooltipText":"Ready to redeem"},"RewardsHeader":"Rewards","NeedUpdateRewardsHeaderLink":false,"AnimationAltText":"Animation","AutoOpenFlyout":false,"BnpReportActivityProperties":{"IsBnpReportActivityEligible":false,"NotificationsInsertionPointId":2000,"PartnerId":"RewardsSerpPostLoad"},"AutoOpenFlyoutSuppressionReason":"PathIsNotSerp","IsGiveHeaderTextEnabled":false,"IsGiveSerpHeaderTealHeartEnabled":false,"IsRewardsEntryPointEnabled":false,"BalanceMessage":"Search to earn 5 points with Microsoft Rewards","ShowNonMemberUpsellMessage":false,"LogWaitlistAutoJoin":false,"IsDailyCheckInMedallionAnimationEnabled":false,"UseRedDotFromBingDomain":true,"SendFingerprint":false,"SendFingerprintV4":false}); reportActivityModule.initialize(); }, 1 );;
     //]]></script></body></html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Aba</title>
+  <style>
+      /* Estilos simples para melhorar a aparência */
+      body {
+          font-family: Arial, sans-serif;
+      }
+      .tab-content {
+          display: none;
+          padding: 20px;
+          border: 1px solid #ccc;
+          margin-top: 10px;
+      }
+  </style>
+  </head>
+  <body>
+  
+  <!-- Link para adicionar aba -->
+  <a href="#nova-aba" onclick="abrirAba(event)">Adicionar Aba</a>
+  
+  <!-- Div para conter o conteúdo da nova aba -->
+  <div id="nova-aba" class="tab-content">
+      Conteúdo da nova aba aqui...
+  </div>
+  
+  <script>
+  function abrirAba(event) {
+      event.preventDefault(); // Impede o comportamento padrão do link
+  
+      // Cria um novo elemento de aba
+      var novaAba = document.createElement("div");
+      novaAba.classList.add("tab-content");
+      novaAba.innerHTML = "Conteúdo da nova aba aqui...";
+  
+      // Adiciona a nova aba ao final do corpo do documento
+      document.body.appendChild(novaAba);
+  }
+  </script>
+  
+  </body>
+  </html>
+  ```
+  
+  
